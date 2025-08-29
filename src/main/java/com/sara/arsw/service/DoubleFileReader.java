@@ -1,4 +1,4 @@
-package com.sara.arsw.io;
+package com.sara.arsw.service;
 
 import com.sara.arsw.collections.DoublyLinkedList;
 import java.io.IOException;
@@ -8,7 +8,6 @@ import java.util.stream.Stream;
 public final class DoubleFileReader {
     private DoubleFileReader() {}
 
-    /** Lee números desde un archivo (uno por línea) usando Streams + Lambdas */
     public static DoublyLinkedList<Double> readNumbers(Path path) throws IOException {
         DoublyLinkedList<Double> list = new DoublyLinkedList<>();
         try (Stream<String> lines = Files.lines(path)) {
@@ -21,3 +20,4 @@ public final class DoubleFileReader {
         return list;
     }
 }
+

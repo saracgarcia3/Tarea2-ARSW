@@ -2,9 +2,7 @@ package com.sara.arsw.collections;
 
 import java.util.*;
 
-/**
- * Lista doblemente enlazada compatible con la API de colecciones.
- */
+
 public class DoublyLinkedList<E> extends AbstractSequentialList<E> {
 
     private static final class Node<E> {

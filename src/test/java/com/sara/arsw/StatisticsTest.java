@@ -1,7 +1,7 @@
 package com.sara.arsw;
 
 import com.sara.arsw.collections.DoublyLinkedList;
-import com.sara.arsw.io.DoubleFileReader;
+import com.sara.arsw.service.DoubleFileReader;
 import com.sara.arsw.service.Statistics;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;

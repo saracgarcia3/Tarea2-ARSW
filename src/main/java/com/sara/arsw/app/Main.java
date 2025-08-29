@@ -1,7 +1,7 @@
 package com.sara.arsw.app;
 
 import com.sara.arsw.collections.DoublyLinkedList;
-import com.sara.arsw.io.DoubleFileReader;
+import com.sara.arsw.service.DoubleFileReader;
 import com.sara.arsw.service.Statistics;
 
 import java.nio.file.Paths;
@@ -27,5 +27,3 @@ public class Main {
         System.out.println("Desviación estándar: " + desv2);
     }
 }
-
-
