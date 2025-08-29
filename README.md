@@ -23,7 +23,6 @@ Cada nodo contiene:
 - `next` → referencia al siguiente  
 
 Permite almacenar y recorrer los datos cargados desde los archivos.  
-Uso de **Generics `<E>`** para poder guardar cualquier tipo de dato (en este caso, `Double`).
 
 ---
 
