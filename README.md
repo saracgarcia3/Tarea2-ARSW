@@ -7,14 +7,14 @@ Este proyecto implementa un programa que **lee dos columnas de números desde ar
 
 ## ⚙️ Funcionamiento
 
-### 🗂️ Archivos de datos (`col1.txt` y `col2.txt`)
+### Archivos de datos (`col1.txt` y `col2.txt`)
 - Contienen listas de números (uno por línea).
 - Están ubicados en `src/test/resources/`.
 - Se procesan de forma automática al ejecutar el programa.
 
 ---
 
-### 🔗 Lista doblemente enlazada (`DoublyLinkedList.java`)
+### Lista doblemente enlazada (`DoublyLinkedList.java`)
 Estructura de datos genérica implementada desde cero.
 
 Cada nodo contiene:
@@ -26,7 +26,7 @@ Permite almacenar y recorrer los datos cargados desde los archivos.
 
 ---
 
-### 📥 Lector de archivos (`DoubleFileReader.java`)
+### Lector de archivos (`DoubleFileReader.java`)
 Se encarga de leer línea por línea cada archivo de números.  
 
 Usa **Streams y Lambdas** de Java para:
@@ -37,14 +37,14 @@ Usa **Streams y Lambdas** de Java para:
 
 ---
 
-### 📐 Estadísticas (`Statistics.java`)
+### Estadísticas (`Statistics.java`)
 Implementa los cálculos principales:
 - **Media aritmética:** suma de todos los valores dividido entre `n`.  
 - **Desviación estándar muestral:** raíz cuadrada de la varianza usando `n-1`.  
 
 ---
 
-### 🚀 Programa principal (`Main.java`)
+### Programa principal (`Main.java`)
 
 1. Lee los números de `col1.txt` y `col2.txt`.  
 2. Guarda los datos en `DoublyLinkedList<Double>`.  
