@@ -56,4 +56,5 @@ Ejemplo de salida:
 
 
 <p align="center">
-![alt text](image.png)</p>
+<img width="346" height="155" alt="image" src="https://github.com/user-attachments/assets/0be4728a-0053-4e6b-8cd7-7a971963b3ea" />
+</p>
